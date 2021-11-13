@@ -10,7 +10,7 @@
     "export": "next export"
   },
   "keywords": [],
-  "author": "Sergi Botargues <sbotargues@gmail.com>",
+  "author": "Sergi Botargues <sergi@botarguess.com>",
   "license": "MIT",
   "dependencies": {
     "@chakra-ui/icons": "^1.0.15",
