@@ -1,29 +1,26 @@
-import NextLink from 'next/link'
 import {
   Link,
   Container,
   Heading,
   Box,
   Image,
-  SimpleGrid,
   Button,
   List,
   ListItem,
   Icon,
   useColorModeValue
 } from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { GridItem } from '../components/grid-item'
 import {
   IoLogoLinkedin,
   IoLogoGithub,
-  IoLogoDiscord
+  IoLogoGoogle,
+  IoMail,
 } from 'react-icons/io5'
-import thumbYouTube from '../public/images/links/youtube.png'
+import { PhoneIcon } from '@chakra-ui/icons'
 
 
 const Home = () => (
@@ -56,7 +53,7 @@ const Home = () => (
             borderColor="whiteAlpha.800"
             borderWidth={2}
             borderStyle="solid"
-            maxWidth="100px"
+            maxWidth="130px"
             display="inline-block"
             borderRadius="full"
             src="/images/Sergi.jpg"
@@ -82,7 +79,7 @@ const Home = () => (
           Technologies
         </Heading>
         <Paragraph>
-        JavaScript - Typescript - React.js - HTML5 - CSS3 - MongoDB - Node.js - Express - Next.js - chakra UI - Framer Motion - Three.js - Tailwind CSS - Linux/Windows/Mac - MySQL - AWS - IOS - Wordpress - Shopify - SEO
+        JavaScript - Typescript - React.js - HTML5 - CSS3 - MongoDB - AWS - Node.js - Express - Next.js - chakra UI - Framer Motion - Three.js - Tailwind CSS - Storybook - Sass - Mailchimp - Axios - Linux/Windows/Mac - MySQL - AWS - IOS - Wordpress - Shopify - SEO
         </Paragraph>
       </Section>
 
@@ -153,43 +150,32 @@ const Home = () => (
               </Button>
             </Link>
           </ListItem>
-          {/* <ListItem>
-            <Link href="https://discord.gg/QfsG5Kj" target="_blank">
+          <Heading as="h3" variant="section-title">
+          Contact
+        </Heading>
+          <ListItem>
+            <Link href="mailto:sbotargues@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
-                leftIcon={<Icon as={IoLogoDiscord} />}
+                leftIcon={<Icon as={IoMail} />}
               >
-                Discord
+                sbotargues@gmail.com
               </Button>
             </Link>
-          </ListItem> */}
+          </ListItem>
+          <ListItem>
+            <Link href="tel:+34608162699" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<Icon as={PhoneIcon} />}
+              >
+                +34 608162699
+              </Button>
+            </Link>
+          </ListItem>
         </List>
-
-        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid> */}
-
-        {/* <Box align="center" my={4}>
-          <NextLink href="/posts">
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box> */}
       </Section>
     </Container>
   </Layout>

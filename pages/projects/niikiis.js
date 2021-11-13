@@ -29,31 +29,25 @@ import {
         <List ml={4} my={4}>
           <ListItem>
             <Meta>Platform</Meta>
-            <span>WEB</span>
+            <span>WEB, iOS, Android</span>
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>Javascript, React.js, CSS3, Node.js, Express.js, MongoDB</span>
+            <span>AWS - Javascript - React.js - CSS3 - Node.js - Express.js - MongoDB</span>
           </ListItem>
           <ListItem>
-            <Meta>Source</Meta>
-            <Link href="https://github.com/sbotargues/back-niikiis" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoGithub} />}
-                >
-                  Backend
-                </Button>
-              </Link>
-              <Link href="https://github.com/sbotargues/front-niikiis" target="_blank">
-                <Button
-                  variant="ghost"
-                  colorScheme="teal"
-                  leftIcon={<Icon as={IoLogoGithub} />}
-                >
-                  Frontend
-                </Button>
+            <Meta>SITE</Meta>
+            <Link
+            href="https://www.niikiis.com/
+    "
+            target="_blank"
+          >
+            <Button
+              variant="ghost"
+              colorScheme="teal"
+            >
+              niikiis.com
+            </Button>
               </Link>
           </ListItem>
         </List>
@@ -62,8 +56,8 @@ import {
           <Center>Media coverage</Center>
         </Heading>
   
-        {/* <WorkImage src="/images/projects/frontendniikiis.png" alt="niikiis" />
-        <WorkImage src="/images/projects/layoutniikiis.png" alt="niikiis" /> */}
+        <WorkImage src="/images/projects/niikiis.png" alt="niikiis" />
+        <WorkImage src="/images/projects/niikiis2.png" alt="niikiis" />
        </Container> 
     </Layout>
   )

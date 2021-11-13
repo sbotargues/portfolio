@@ -14,9 +14,9 @@ import {
   IconButton,
   useColorModeValue
 } from '@chakra-ui/react'
-import { HamburgerIcon } from '@chakra-ui/icons'
+import { HamburgerIcon, PhoneIcon } from '@chakra-ui/icons'
 import ThemeToggleButton from './theme-toggle-button'
-import { IoLogoGithub } from 'react-icons/io5'
+import { IoLogoGithub, IoMail } from 'react-icons/io5'
 import { IoLogoLinkedin } from 'react-icons/io5'
 
 const LinkItem = ({ href, path, _target, children, ...props }) => {
@@ -73,7 +73,7 @@ const Navbar = props => {
           mt={{ base: 4, md: 0 }}
         >
           <LinkItem href="/projects" path={path}>
-            Projects
+            PROJECTS
           </LinkItem>
           {/* <LinkItem href="/posts" path={path}>
             Posts
@@ -92,7 +92,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="https://github.com/sbotargues?tab=repositories.com"
+            href="https://github.com/sbotargues?tab=repositories"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -101,6 +101,30 @@ const Navbar = props => {
           >
             <IoLogoGithub />
             Github
+          </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="mailto:sbotargues@gmail.com"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+          <IoMail />
+            sbotargues@gmail.com
+          </LinkItem>
+          <LinkItem
+            target="_blank"
+            href="tel:+34608162699"
+            path={path}
+            display="inline-flex"
+            alignItems="center"
+            style={{ gap: 4 }}
+            pl={2}
+          >
+          <PhoneIcon />
+            
           </LinkItem>
         </Stack>
 

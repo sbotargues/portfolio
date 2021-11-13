@@ -7,13 +7,10 @@ import {
   Heading,
   Button,
   Center,
-  Icon
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
-import { IoLogoGithub } from 'react-icons/io5'
 import { Title, WorkImage, Meta } from '../../components/project'
 import P from '../../components/paragraph'
-import ReactPlayer from 'react-player'
 // import video1 from '../../public/video-presentacion.mp4'
 
 
@@ -22,7 +19,7 @@ const Project = () => (
     <Container>
       <Title>
         teamNOBOX
-        <Badge>2020</Badge>
+        <Badge>2021</Badge>
       </Title>
       <P>
         teamNOBOX is a social network that apart from providing the utilities of
@@ -32,39 +29,25 @@ const Project = () => (
 
       <List ml={4} my={4}>
         <ListItem>
-          <Meta>Platform</Meta>
-          <span>WEB</span>
+          <Meta>Platforms</Meta>
+          <span>WEB, Android, iOS</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Javascript, React.js, CSS3, Node.js, Express.js, MongoDB</span>
+          <span>Typescript - React.js - CSS3 - Node.js - Next.js - Tailwindcss - Storybook - sass - Mailchimp - Axios</span>
         </ListItem>
         <ListItem>
-          <Meta>Source</Meta>
+          <Meta>SITE</Meta>
           <Link
-            href="https://github.com/sbotargues/back-teamNOBOX
+            href="https://teamnobox.com/
     "
             target="_blank"
           >
             <Button
               variant="ghost"
               colorScheme="teal"
-              leftIcon={<Icon as={IoLogoGithub} />}
             >
-              Backend
-            </Button>
-          </Link>
-          <Link
-            href="https://github.com/sbotargues/front-teamNOBOX
-        "
-            target="_blank"
-          >
-            <Button
-              variant="ghost"
-              colorScheme="teal"
-              leftIcon={<Icon as={IoLogoGithub} />}
-            >
-              Frontend
+              teamnobox.com
             </Button>
           </Link>
         </ListItem>
@@ -73,6 +56,7 @@ const Project = () => (
       <Heading as="h4" fontSize={16} my={6}>
         <Center>Media coverage</Center>
       </Heading>
+      <WorkImage src="/images/projects/teamNOBOX1.png" alt="tippo" />
       
       <div>
       {/* <video autoPlay loop style={{ width: '500px', height: '500px' }}>
