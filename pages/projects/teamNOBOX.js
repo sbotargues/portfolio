@@ -11,7 +11,7 @@ import {
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/project'
 import P from '../../components/paragraph'
-// import video1 from '../../public/video-presentacion.mp4'
+//import video1 from '../../public/video-presentacion.mp4'
 
 
 const Project = () => (
@@ -61,7 +61,7 @@ const Project = () => (
       <div>
       {/* <video autoPlay loop style={{ width: '500px', height: '500px' }}>
         <source src={video} type={"video/mp4"}></source>
-      </video> */}
+      </video>  */}
   </div>
 
     </Container>
