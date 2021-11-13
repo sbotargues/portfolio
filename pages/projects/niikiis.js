@@ -7,7 +7,6 @@ import {
     Heading,
     Button,
     Center,
-    Icon
   } from '@chakra-ui/react'
   import Layout from '../../components/layouts/article'
   import { Title, WorkImage, Meta } from '../../components/project'
