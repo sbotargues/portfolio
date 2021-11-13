@@ -10,9 +10,6 @@ import {
     Icon
   } from '@chakra-ui/react'
   import Layout from '../../components/layouts/article'
-  import {
-    IoLogoGithub,
-  } from 'react-icons/io5'
   import { Title, WorkImage, Meta } from '../../components/project'
   import P from '../../components/paragraph'
   

@@ -17,7 +17,6 @@ import Section from '../components/section'
 import {
   IoLogoLinkedin,
   IoLogoGithub,
-  IoLogoGoogle,
   IoMail,
 } from 'react-icons/io5'
 import { PhoneIcon } from '@chakra-ui/icons'
