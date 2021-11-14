@@ -69,8 +69,8 @@ const Home = () => (
           Sergi is a full-stack developer based in Barcelona with a
           passion for building digital services/stuff he wants. He has a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          produce music. 
+          way to solving real-life problems with code. When he is not online, he loves
+          to produce music. 
         </Paragraph>
       </Section>
       <Section delay={0.2}>
