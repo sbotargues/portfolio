@@ -104,7 +104,7 @@ const Navbar = props => {
           </LinkItem>
           <LinkItem
             target="_blank"
-            href="mailto:sergi@botarguess.com"
+            href="mailto:sbotargues@gmail.com"
             path={path}
             display="inline-flex"
             alignItems="center"
@@ -112,7 +112,7 @@ const Navbar = props => {
             pl={2}
           >
           <IoMail />
-            sergi@botarguess.com
+            sbotargues@gmail.com
           </LinkItem>
           <LinkItem
             target="_blank"

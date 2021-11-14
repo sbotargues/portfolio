@@ -153,13 +153,13 @@ const Home = () => (
           Contact
         </Heading>
           <ListItem>
-            <Link href="mailto:sergi@botarguess.com" target="_blank">
+            <Link href="mailto:sbotargues@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoMail} />}
               >
-                sergi@botarguess.com
+                sbotargues@gmail.com
               </Button>
             </Link>
           </ListItem>
