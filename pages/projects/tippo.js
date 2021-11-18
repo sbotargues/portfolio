@@ -33,7 +33,7 @@ const Project = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Javascript - React.js - CSS3 - Node.js - Express.js - MongoDB</span>
+          <span>Javascript - React.js (hooks) - CSS3 - Node.js - Express.js - MongoDB</span>
         </ListItem>
         <ListItem>
           <Meta>Source</Meta>

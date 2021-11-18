@@ -74,7 +74,7 @@ const Home = () => (
           Technologies
         </Heading>
         <Paragraph>
-        JavaScript - Typescript - React.js - HTML5 - CSS3 - MongoDB - AWS - Node.js - Express - Next.js - chakra UI - Framer Motion - Three.js - Tailwind CSS - Storybook - Sass - Mailchimp - Axios - Linux/Windows/Mac - MySQL - AWS - IOS - Wordpress - Shopify - SEO
+        JavaScript - Typescript - React.js (hooks) - HTML5 - CSS3 - MongoDB - AWS - Node.js - Express - Next.js - chakra UI - Framer Motion - Three.js - Tailwind CSS - Storybook - Sass - Mailchimp - Axios - Linux/Windows/Mac - MySQL - AWS - IOS - Wordpress - Shopify - SEO
         </Paragraph>
       </Section>
 

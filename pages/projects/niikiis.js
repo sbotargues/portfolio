@@ -29,7 +29,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>AWS - Javascript - React.js - CSS3 - Node.js - Express.js - MongoDB</span>
+            <span>AWS - Javascript - React.js (hooks) - CSS3 - Node.js - Express.js - MongoDB</span>
           </ListItem>
           <ListItem>
             <Meta>SITE</Meta>

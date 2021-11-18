@@ -34,7 +34,7 @@ const Project = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Typescript - React.js - CSS3 - Node.js - Next.js - Tailwindcss - Storybook - sass - Mailchimp - Axios</span>
+          <span>Typescript - React.js (hooks) - CSS3 - Node.js - Next.js - Tailwindcss - Storybook - sass - Mailchimp - Axios</span>
         </ListItem>
         <ListItem>
           <Meta>SITE</Meta>
