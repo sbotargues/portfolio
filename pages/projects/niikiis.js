@@ -7,12 +7,8 @@ import {
     Heading,
     Button,
     Center,
-    Icon
   } from '@chakra-ui/react'
   import Layout from '../../components/layouts/article'
-  import {
-    IoLogoGithub,
-  } from 'react-icons/io5'
   import { Title, WorkImage, Meta } from '../../components/project'
   import P from '../../components/paragraph'
   
@@ -33,7 +29,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>AWS - Javascript - React.js - CSS3 - Node.js - Express.js - MongoDB</span>
+            <span>AWS - Javascript - React.js (hooks) - CSS3 - Node.js - Express.js - MongoDB</span>
           </ListItem>
           <ListItem>
             <Meta>SITE</Meta>

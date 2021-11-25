@@ -17,7 +17,6 @@ import Section from '../components/section'
 import {
   IoLogoLinkedin,
   IoLogoGithub,
-  IoLogoGoogle,
   IoMail,
 } from 'react-icons/io5'
 import { PhoneIcon } from '@chakra-ui/icons'
@@ -67,11 +66,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Sergi is a full-stack developer based in Barcelona with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          produce music. 
+        Sergi is a full-stack developer based in Barcelona with a passion for building digital services. He has a knack for launching products, from planning and designing all the way to solving real-life problems with code. When not online, he loves producing music.
         </Paragraph>
       </Section>
       <Section delay={0.2}>
@@ -79,7 +74,7 @@ const Home = () => (
           Technologies
         </Heading>
         <Paragraph>
-        JavaScript - Typescript - React.js - HTML5 - CSS3 - MongoDB - AWS - Node.js - Express - Next.js - chakra UI - Framer Motion - Three.js - Tailwind CSS - Storybook - Sass - Mailchimp - Axios - Linux/Windows/Mac - MySQL - AWS - IOS - Wordpress - Shopify - SEO
+        JavaScript - Typescript - React.js (hooks) - HTML5 - CSS3 - MongoDB - AWS - Node.js - Express - Next.js - chakra UI - Framer Motion - Three.js - Tailwind CSS - Storybook - Sass - Mailchimp - Axios - Linux/Windows/Mac - MySQL - AWS - IOS - Wordpress - Shopify - SEO
         </Paragraph>
       </Section>
 
@@ -154,13 +149,13 @@ const Home = () => (
           Contact
         </Heading>
           <ListItem>
-            <Link href="mailto:sergi@botarguess.com" target="_blank">
+            <Link href="mailto:sbotargues@gmail.com" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
                 leftIcon={<Icon as={IoMail} />}
               >
-                sergi@botarguess.com
+                sbotargues@gmail.com
               </Button>
             </Link>
           </ListItem>

@@ -4,7 +4,7 @@ import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
 
 import thumbNiikiis from '../public/images/projects/niikiisHome.png'
-import thumbNobox from '../public/images/projects/teamNobox.png'
+import thumbNobox from '../public/images/projects/teamnobox.png'
 import thumbtippo from '../public/images/projects/tippo.png'
 
 const projects = () => (
