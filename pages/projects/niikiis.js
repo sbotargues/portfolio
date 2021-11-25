@@ -19,7 +19,7 @@ import {
           niikiis <Badge>2020</Badge>
         </Title>
         <P>
-        niikiis is a social network that apart from providing the utilities of following and giving likes, you can immediately meet a person that interests you.
+        niikiis is the all-in-one HR software that saves SMEs time and money. Configurable, intuitive, and Plug & Play; niikiis is more than HR software: it adapts to the needs of your company. Digitization and automation of tasks and processes.
         </P>
   
         <List ml={4} my={4}>
