@@ -6,6 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbNiikiis from '../public/images/projects/niikiisHome.png'
 import thumbNobox from '../public/images/projects/teamnobox.png'
 import thumbtippo from '../public/images/projects/tippo.png'
+import thumbquantion from '../public/images/projects/fondo-quantion.png'
 
 const projects = () => (
   <Layout title="projects">
@@ -15,9 +16,14 @@ const projects = () => (
       </Heading>
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      <Section>
+          <WorkGridItem id="Quantion" title="Quantion" thumbnail={thumbquantion}>
+          Quantion is a company dedicated to the digital transformation of companies, where I am helping to create one of the projects.
+          </WorkGridItem>
+        </Section>
         <Section>
-          <WorkGridItem id="teamNOBOX" title="teamNOBOX" thumbnail={thumbNobox}>
-          TeamNOBOX is an agency specialized in strategy, marketing and brand building focused on startups in the launch and growth phase.
+          <WorkGridItem id="teamNOBOX" title="TeamNOBOX" thumbnail={thumbNobox}>
+          Colaboration with TeamNOBOX, is an agency specialized in strategy, marketing and brand building focused on startups in the launch and growth phase.
           </WorkGridItem>
         </Section>
         <Section>
@@ -51,7 +57,7 @@ const projects = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="teamNOBOX" thumbnail={thumbtippo} title="teamNOBOX">
+          <WorkGridItem id="tippo" thumbnail={thumbtippo} title="tippo">
           This is a social network that apart from providing the utilities of following and giving likes, you can immediately meet a person that interests you.
           </WorkGridItem>
         </Section>

@@ -11,34 +11,32 @@ import {
 import Layout from '../../components/layouts/article'
 import { Title, WorkImage, Meta } from '../../components/project'
 import P from '../../components/paragraph'
-//import video1 from '../../public/video-presentacion.mp4'
 
 
 const Project = () => (
-  <Layout title="teamNOBOX">
+  <Layout title="Quantion">
     <Container>
       <Title>
-        teamNOBOX
-        <Badge>2021</Badge>
+        Quantion
+        <Badge>2022</Badge>
       </Title>
       <P>
-      Services designed for each stage of the startup process. <br/>
-      Designed for those who understand the value of reimagining, we have designed services with our own processes, tailored to the needs of startups.
+      At Quantion we facilitate your company’s digital transformation. Our experience, tailored solutions and our specialists know-how bring technology to business and business to technology.
       </P>
 
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platforms</Meta>
-          <span>WEB, Android, iOS</span>
+          <span>VSCode, Azure, Windows</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Typescript - React.js (hooks) - CSS3 - Node.js - Next.js - Tailwindcss - Storybook - sass - Mailchimp - Axios</span>
+          <span>Typescript, Angular, Java, Springboot, Node.js, SQL, Mongodb</span>
         </ListItem>
         <ListItem>
           <Meta>SITE</Meta>
           <Link
-            href="https://teamnobox.com/
+            href="https://quantion.com/
     "
             target="_blank"
           >
@@ -46,7 +44,7 @@ const Project = () => (
               variant="ghost"
               colorScheme="teal"
             >
-              teamnobox.com
+              quantion.com
             </Button>
           </Link>
         </ListItem>
@@ -55,7 +53,7 @@ const Project = () => (
       <Heading as="h4" fontSize={16} my={6}>
         <Center>Media coverage</Center>
       </Heading>
-      <WorkImage src="/images/projects/teamNOBOX1.png" alt="tippo" />
+      <WorkImage src="/images/projects/fondo-quantion.png" alt="quantion" />
       
       <div>
       {/* <video autoPlay loop style={{ width: '500px', height: '500px' }}>

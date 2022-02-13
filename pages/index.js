@@ -74,7 +74,7 @@ const Home = () => (
           Technologies
         </Heading>
         <Paragraph>
-        JavaScript - Typescript - React.js (hooks) - HTML5 - CSS3 - MongoDB - AWS - Node.js - Express - Next.js - chakra UI - Framer Motion - Three.js - Tailwind CSS - Storybook - Sass - Mailchimp - Axios - Linux/Windows/Mac - MySQL - AWS - IOS - Wordpress - Shopify - SEO
+        JavaScript - Typescript - Angular - React.js(hooks)HTML5 - CSS3 - MongoDB - AWS (Lambda, API Gateway, S3, cloudwatch, cloudfront, pipeline, dynamodb...) - Node.js - Java - Springboot - Express - Next.js - chakra UI - Framer Motion - Three.js - Tailwind CSS - Storybook - Sass - Mailchimp - Axios - MySQL - AWS - IOS - Wordpress - Shopify - SEO - Git - Shopify - Wordpress - VSCode, Cloud9, Agile(Azure, Jira...)
         </Paragraph>
       </Section>
 
@@ -96,12 +96,16 @@ const Home = () => (
           Completed the Bootcamp in Ironhack Barcelona
         </BioSection>
         <BioSection>
-          <BioYear>2020 - 2021</BioYear>
+          <BioYear>September 2020 - June 2021</BioYear>
           Worked at Niikiis, Barcelona
         </BioSection>
         <BioSection>
           <BioYear>June 2021 - Present</BioYear>
           Projects as a freelance, colaboration with DigitalChallenge and TeamNOBOX
+        </BioSection>
+        <BioSection>
+          <BioYear>December 2021 - Present</BioYear>
+          Working at Quantion, Barcelona
         </BioSection>
       </Section>
 
@@ -112,7 +116,10 @@ const Home = () => (
         <Paragraph>
           Art,{' '}
           <Link href="https://soundcloud.com/sergi-botargues" target="_blank">
-            Music
+            Music,{' '}
+          </Link>
+          <Link href="https://www.twitch.tv/botarguess" target="_blank">
+            Streaming
           </Link>
           , Analog, Film, Digital Marketing
         </Paragraph>
