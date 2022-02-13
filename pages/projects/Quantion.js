@@ -22,6 +22,7 @@ const Project = () => (
       </Title>
       <P>
       At Quantion we facilitate your company’s digital transformation. Our experience, tailored solutions and our specialists know-how bring technology to business and business to technology.
+      I'm helping in the internal software project with Kids&Us.
       </P>
 
       <List ml={4} my={4}>
@@ -31,7 +32,7 @@ const Project = () => (
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>Typescript, Angular, Java, Springboot, Node.js, SQL, Mongodb</span>
+          <span>Typescript, Javascript, HTML, CSS, Bootstrap, Angular, Java, Springboot, Node.js, SQL, Mongodb</span>
         </ListItem>
         <ListItem>
           <Meta>SITE</Meta>
