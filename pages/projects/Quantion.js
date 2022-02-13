@@ -27,7 +27,7 @@ const Project = () => (
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platforms</Meta>
-          <span>VSCode, Azure, Windows</span>
+          <span>WEB, Android, iOS</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
